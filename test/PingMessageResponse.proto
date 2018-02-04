@@ -1,0 +1,6 @@
+syntax = "proto3";
+package eu.matilda.service.test;
+
+message PingMessageResponse {
+  string id = 1;
+}

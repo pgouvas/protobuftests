@@ -1,0 +1,7 @@
+syntax = "proto3";
+package eu.matilda.common;
+
+enum ResponseCodeEnum {
+  SUCCESS = 0;
+  EXCEPTION_GENERIC = 1;
+}

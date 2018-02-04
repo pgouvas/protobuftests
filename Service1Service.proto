@@ -1,0 +1,9 @@
+syntax = "proto3";
+package eu.matilda.service.service1;
+//Import section
+import "common/BasicResponseMessage.proto";
+import "service1/CreateMessage.proto";
+
+service Service1 {
+    rpc create (eu.matilda.service.service1.CreateMessage) returns (eu.matilda.common.BasicResponseMessage);
+}

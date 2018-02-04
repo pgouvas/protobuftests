@@ -1,0 +1,9 @@
+syntax = "proto3";
+package eu.matilda.common;
+import "common/ResponseCodeEnum.proto";     //compilation root
+
+message BasicResponseMessage {
+    eu.matilda.common.ResponseCodeEnum code = 1;
+    string test1 = 2;
+    string message = 3;
+}

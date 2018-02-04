@@ -1,0 +1,9 @@
+syntax = "proto3";
+package eu.matilda.service.test;
+
+import "test/PingMessage.proto";
+import "test/PingMessageResponse.proto";
+
+service Test{
+    rpc ping (eu.matilda.service.test.PingMessage) returns (eu.matilda.service.test.PingMessageResponse);
+}

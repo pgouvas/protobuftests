@@ -1,0 +1,6 @@
+syntax = "proto3";
+package eu.matilda.service.service1;
+
+message CreateMessage {
+  string id = 1;
+}

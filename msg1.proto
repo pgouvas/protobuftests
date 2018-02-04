@@ -1,0 +1,8 @@
+syntax = "proto3";
+package eu.matilda.model.test;
+
+message ResultEnum {
+  string query = 1;
+  string page_number = 2;
+  string result_per_page = 3;
+}
